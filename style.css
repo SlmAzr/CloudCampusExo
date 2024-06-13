@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: black;
+}
+.title{
+    color: white;
+    text-align: center;
+}
+.hideShow{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.hideShow button{
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.hideShow button:hover{
+    background-color: white;
+    color: black;
+}
+.calculatrice-wrapper {
+  display: flex;
+  justify-content: column;
+  align-items: center;
+  flex-direction: column;
+}
+.calculatrice{
+    display: flex;
+    flex-direction: column;
+}
+.hover{
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.machine{
+    margin-top: 10px;
+    padding: 0;
+    border: 1px solid white;
+}
+.machine input{
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.machine select{
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.machine button{
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    border:none;
+    cursor: pointer;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button { 
+	-webkit-appearance: none;
+	margin:0;
+}
